@@ -7,9 +7,9 @@ Edit "color" on line 25 to change the colored font on the front page.
 *********************************************************************/
 
 body {
-  background : #ffffff;
+  background : #D7D7D7;
   background : radial-gradient(ellipse at center, #ffffff 0%, #eee 100%);
-  background : -moz-radial-gradient(#eee, #fff);
+  background : -moz-radial-gradient(#FFFEFC, #D7D7D7);
 }
 .keepcentered {
   width : 640px;
@@ -20,14 +20,15 @@ body {
   font-weight : 100;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-style : normal;
   color : #d64937; 
   margin : 5px;
 }
 input, textarea, select {
-  border: 1px solid #d64937;
+  border: 1px solid #686969;
   padding: 10px;
+  font-family: "Ubuntu Light"
 }
 td, tr {
   width: 20%;
@@ -56,7 +57,16 @@ input#search {
   width: 100%;
   font-size: 18px;
 }
-div#time { font-size: 72px; }
+div#time { 
+  font-size: 72px;
+
+   }
+div#Date { 
+  font-size: 36px;}
+div#bookmarks {
+	  font-family: "Ubuntu Light"
+}
+
 div.toolbar { 
   position: absolute;
   top: 0;
