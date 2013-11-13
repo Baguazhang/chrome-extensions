@@ -146,17 +146,17 @@ Main page for the GUI.
   addSearch('subreddit', function(s) {
     window.location.href = 'http://www.reddit.com/r/' + s;
   });
-  addSearch('issue', function(s) {
-    window.location.href = 'https://github.counsyl.com/dev/website/issues/' + s;
+  addSearch('Github', function(s) {
+    window.location.href = 'https://github.com/search?q=' + s;
   });
-  addSearch('weather', function(s) {
-    window.location.href = 'http://www.wunderground.com/cgi-bin/findweather/getForecast?query=' + s;
+  addSearch('Gmail', function(s) {
+    window.location.href = 'https://mail.google.com/mail/ca/u/0/#search/' + s;
   });
-  addSearch('testp', function(s) {
-    window.location.href = 'https://testp-' + s + '.counsyl.com/helpdesk/';
+  addSearch('youtube', function(s) {
+    window.location.href = 'http://www.youtube.com/results?search_query=' + s;
   });
-  addSearch('djangome', function(s) {
-    window.location.href = 'http://django.me/' + s;
+  addSearch('imdb', function(s) {
+    window.location.href = 'http://www.imdb.com/find?q=' + s;
   });
   updateClock();
   bindNoteHandlers();
