@@ -28,7 +28,7 @@ body {
 input, textarea, select {
   border: 1px solid #A82525;
   padding: 10px;
-  font-family: "Ubuntu Light"
+  font-family: "Ubuntu"
 }
 td, tr {
   width: 20%;
@@ -45,7 +45,7 @@ table input {
 }
 a {
   font-weight: 100;
-  font-family: "Ubuntu Light";
+  font-family: "Ubuntu";
   color : #2B96D9;
 }
 a:hover{
@@ -66,7 +66,7 @@ div#time {
 div#Date { 
   font-size: 36px;}
 div#bookmarks {
-	  font-family: "Ubuntu Light"
+	  font-family: "Ubuntu: 300"
 }
 
 div.toolbar { 
