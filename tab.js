@@ -7,10 +7,6 @@ Main page for the GUI.
   Line 114: Create header row.
 *********************************************************************/
 
-function blue(){
-  document.getElementById('blue').style.color = "#2B96D9";
-}
-
 (function(bookmarkFolder, displayFavicons) {
   function updateClock() {
     Date.getMinutesTwoDigits = function() {
